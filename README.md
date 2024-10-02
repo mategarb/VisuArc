@@ -1,5 +1,5 @@
 # VisuArc
-An arc diagram is graphical representation of a selected part of the VisuNet network.
+This arc diagram is a graphical representation of a selected part of the VisuNet network
 
 ## Arguments
 - net - an output network from the VisuNet
@@ -9,10 +9,11 @@ An arc diagram is graphical representation of a selected part of the VisuNet net
 - mainTitle - a character indciating title for the arch diagram
 
 ## Output
-An arc diagram presenting hub and all its connections dervied from rules
+An arc diagram presenting part of the given network and all its connections dervied from rules.
+For example, a hub (master regulator) and all genes connected to it
 
 ## About
-Function is supported with a package "arcdiagram".
+Function is supported with the R package "arcdiagram".
 (Sanchez, Gaston. "Introduction to the R package arcdiagram", 2016)
 
 ## Usage
